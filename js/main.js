@@ -47,14 +47,34 @@ function switchPubTab(tab) {
 const sections = document.querySelectorAll('section[id]');
 const navLinks = document.querySelectorAll('.nav-links a[href^="#"]');
 
+// Track which sections are currently intersecting
+const visibleSections = new Map();
+
 const navObserver = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
-      navLinks.forEach(l => l.classList.remove('active'));
-      const active = document.querySelector(`.nav-links a[href="#${entry.target.id}"]`);
-      if (active) active.classList.add('active');
+      visibleSections.set(entry.target.id, entry.target.getBoundingClientRect().top);
+    } else {
+      visibleSections.delete(entry.target.id);
     }
   });
+
+  // Pick the section closest to the top of the viewport
+  if (visibleSections.size > 0) {
+    let closestId = null;
+    let closestDist = Infinity;
+    visibleSections.forEach((top, id) => {
+      const rect = document.getElementById(id).getBoundingClientRect();
+      const dist = Math.abs(rect.top);
+      if (dist < closestDist) {
+        closestDist = dist;
+        closestId = id;
+      }
+    });
+    navLinks.forEach(l => l.classList.remove('active'));
+    const active = document.querySelector(`.nav-links a[href="#${closestId}"]`);
+    if (active) active.classList.add('active');
+  }
 }, { threshold: 0.1, rootMargin: '-72px 0px -40% 0px' });
 
 sections.forEach(s => navObserver.observe(s));
