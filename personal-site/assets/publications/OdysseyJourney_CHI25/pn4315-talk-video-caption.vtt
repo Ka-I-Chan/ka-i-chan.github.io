@@ -1,0 +1,859 @@
+1
+00:00:00,320 --> 00:00:02,640
+Hi, it's Ka I here
+
+2
+00:00:02,880 --> 00:00:05,360
+and it's my pleasure to present our work,
+
+3
+00:00:05,440 --> 00:00:08,000
+the Odyssey Journey Top Tier Medical
+
+4
+00:00:08,000 --> 00:00:10,880
+Resource Seeking for Specialized Disorder
+
+5
+00:00:10,880 --> 00:00:11,120
+in China. Do
+
+6
+00:00:13,760 --> 00:00:15,760
+you ever find it difficult to question
+
+7
+00:00:15,760 --> 00:00:17,880
+your health or express your feelings to
+
+8
+00:00:17,880 --> 00:00:19,920
+doctors as the medical
+
+9
+00:00:19,920 --> 00:00:22,880
+consultations are dominated by doctors?
+
+10
+00:00:25,240 --> 00:00:27,920
+This is a phenomenon that easily happened
+
+11
+00:00:27,920 --> 00:00:30,240
+in developing countries such as China,
+
+12
+00:00:30,720 --> 00:00:33,000
+and the significant imbalance doctor to
+
+13
+00:00:33,040 --> 00:00:35,840
+patient ratio intensifies this kind
+
+14
+00:00:35,880 --> 00:00:38,080
+of information and power symmetries,
+
+15
+00:00:38,480 --> 00:00:41,200
+including patients hesitate to challenge
+
+16
+00:00:41,200 --> 00:00:44,080
+the authority of doctors, and doctors
+
+17
+00:00:44,080 --> 00:00:46,240
+dominate the consultation in terms of
+
+18
+00:00:46,240 --> 00:00:48,680
+knowledge, skills, time and
+
+19
+00:00:48,680 --> 00:00:51,600
+resources. Therefore, health
+
+20
+00:00:51,600 --> 00:00:53,680
+information seeking is crucial as it
+
+21
+00:00:53,680 --> 00:00:56,000
+helps patients to access information from
+
+22
+00:00:56,000 --> 00:00:58,400
+sources beyond doctors, which can
+
+23
+00:00:58,400 --> 00:01:00,640
+potentially mitigate the asymmetries.
+
+24
+00:01:03,520 --> 00:01:06,320
+In HCI, there are lots of literature has
+
+25
+00:01:06,320 --> 00:01:08,200
+explored health information work in the
+
+26
+00:01:08,200 --> 00:01:11,160
+context of common chronic conditions, and
+
+27
+00:01:11,160 --> 00:01:13,040
+some have studied on rare diseases.
+
+28
+00:01:13,760 --> 00:01:16,480
+However,there remains a significant gap
+
+29
+00:01:16,480 --> 00:01:18,400
+in understanding conditions that are
+
+30
+00:01:18,400 --> 00:01:21,160
+familiar to specialized doctors, but not
+
+31
+00:01:21,160 --> 00:01:24,080
+to the general public. We define this as
+
+32
+00:01:24,080 --> 00:01:26,920
+specific disorders, and hemifacial
+
+33
+00:01:26,920 --> 00:01:28,920
+spasm, HFS, is one of the
+
+34
+00:01:30,040 --> 00:01:32,880
+example. I believe most of you may not
+
+35
+00:01:32,880 --> 00:01:35,680
+have heard of it before, as HFS has a
+
+36
+00:01:35,680 --> 00:01:38,640
+relatively low prevalence rate. So
+
+37
+00:01:38,640 --> 00:01:41,320
+there is only limited public exposure and
+
+38
+00:01:41,320 --> 00:01:43,440
+access to relevant health information.
+
+39
+00:01:44,080 --> 00:01:46,000
+This can make it really tough for
+
+40
+00:01:46,000 --> 00:01:48,560
+patients to find the accurate diagnosis
+
+41
+00:01:48,560 --> 00:01:49,240
+and treatment.
+
+42
+00:01:50,960 --> 00:01:53,680
+Therefore, we propose two research
+
+43
+00:01:53,680 --> 00:01:56,600
+questions, which are, one, what are the
+
+44
+00:01:56,640 --> 00:01:59,360
+primary sources from which HFS
+
+45
+00:01:59,360 --> 00:02:01,280
+patients seek health and healthcare
+
+46
+00:02:01,280 --> 00:02:03,760
+information?And two, what
+
+47
+00:02:03,760 --> 00:02:06,280
+strategies do HFS patients adopt to
+
+48
+00:02:06,280 --> 00:02:08,600
+acquire top-tier medical resources and
+
+49
+00:02:08,600 --> 00:02:11,040
+services?And how do these strategies
+
+50
+00:02:11,040 --> 00:02:13,560
+empower them to mitigateto
+
+51
+00:02:13,600 --> 00:02:16,040
+power and information asymmetries in the
+
+52
+00:02:16,040 --> 00:02:17,680
+doctor-patient relationships.
+
+53
+00:02:20,160 --> 00:02:22,360
+We have interviewed neurosurgeons to gain
+
+54
+00:02:22,360 --> 00:02:24,400
+a professional perspective on patient
+
+55
+00:02:24,400 --> 00:02:26,880
+situations and also HFS
+
+56
+00:02:26,880 --> 00:02:28,880
+patients to gain insights into their
+
+57
+00:02:28,880 --> 00:02:30,880
+journeys of seeking health information
+
+58
+00:02:30,880 --> 00:02:32,600
+and top-tier medical resources.
+
+59
+00:02:34,480 --> 00:02:37,240
+Through thematic analysis, we found that
+
+60
+00:02:37,240 --> 00:02:39,440
+health information seeking for HFS
+
+61
+00:02:39,440 --> 00:02:41,440
+patients primarily relies on human
+
+62
+00:02:41,440 --> 00:02:44,160
+connections. with minimal technological
+
+63
+00:02:44,160 --> 00:02:46,040
+involvement despite its potential
+
+64
+00:02:46,040 --> 00:02:48,760
+benefits. So we employed the
+
+65
+00:02:48,840 --> 00:02:51,440
+factor network theory as our second round
+
+66
+00:02:51,440 --> 00:02:53,880
+of data analysis to identify and
+
+67
+00:02:53,880 --> 00:02:56,600
+discuss human and technology on an equal
+
+68
+00:02:56,600 --> 00:02:57,040
+level.
+
+69
+00:02:59,440 --> 00:03:02,200
+Using A&T, we have categorized the
+
+70
+00:03:02,200 --> 00:03:04,720
+health information seeking network of HFS
+
+71
+00:03:04,720 --> 00:03:07,680
+patients into four distinct units. Each
+
+72
+00:03:07,680 --> 00:03:10,600
+unit comprises various actors who play
+
+73
+00:03:10,640 --> 00:03:13,240
+specific roles, and they are also the
+
+74
+00:03:13,240 --> 00:03:16,000
+primary sources of health information for
+
+75
+00:03:16,320 --> 00:03:17,520
+HFS patients.
+
+76
+00:03:19,040 --> 00:03:21,160
+Let's start by talking about the first
+
+77
+00:03:21,160 --> 00:03:23,960
+unit, the familial unit. This
+
+78
+00:03:23,960 --> 00:03:25,800
+includes two actors, which are the
+
+79
+00:03:25,920 --> 00:03:27,760
+patients themselves and their family
+
+80
+00:03:27,760 --> 00:03:30,640
+members. We've identified three roles for
+
+81
+00:03:30,640 --> 00:03:32,480
+patients and two roles for family
+
+82
+00:03:32,480 --> 00:03:35,280
+members. First
+
+83
+00:03:35,280 --> 00:03:37,760
+role is the proactive information seeking
+
+84
+00:03:37,760 --> 00:03:39,560
+patient. They tend to
+
+85
+00:03:40,080 --> 00:03:42,240
+actively seek out healthy information on
+
+86
+00:03:42,240 --> 00:03:44,720
+their own, so they often couple with
+
+87
+00:03:44,720 --> 00:03:47,480
+family members who as companion provide
+
+88
+00:03:47,480 --> 00:03:48,800
+support and accompany.
+
+89
+00:03:50,720 --> 00:03:52,960
+Second role is the low technological
+
+90
+00:03:52,960 --> 00:03:55,920
+literacy patient. These are often
+
+91
+00:03:55,920 --> 00:03:58,320
+older adults who aren't really using or
+
+92
+00:03:58,320 --> 00:04:00,560
+trusting of online information. They
+
+93
+00:04:00,560 --> 00:04:03,040
+usually depend on their kids who are
+
+94
+00:04:03,040 --> 00:04:04,960
+playing the role of the right agent.
+
+95
+00:04:06,800 --> 00:04:09,040
+The third role is the experienced
+
+96
+00:04:09,040 --> 00:04:11,680
+patient. This patient have dealt with
+
+97
+00:04:11,680 --> 00:04:14,240
+other chronic conditions before, so
+
+98
+00:04:14,240 --> 00:04:15,920
+they're pretty tuned into their health.
+
+99
+00:04:16,400 --> 00:04:18,640
+They often go straight to their familiar
+
+100
+00:04:18,640 --> 00:04:20,480
+healthcare professionals to talk about
+
+101
+00:04:20,480 --> 00:04:21,440
+their conditions.
+
+102
+00:04:23,680 --> 00:04:26,640
+Moving on to the second unit, community
+
+103
+00:04:26,640 --> 00:04:28,880
+unit. This includes actors such as
+
+104
+00:04:28,880 --> 00:04:31,520
+patients' relatives, friends, colleagues
+
+105
+00:04:32,160 --> 00:04:35,040
+we've identified. First
+
+106
+00:04:35,040 --> 00:04:37,520
+is the first-hand informant. These are
+
+107
+00:04:37,520 --> 00:04:39,600
+the people who give patients direct and
+
+108
+00:04:39,600 --> 00:04:41,760
+crucial information about HFS,
+
+109
+00:04:42,320 --> 00:04:45,200
+helping them gain access to top-tier
+
+110
+00:04:45,200 --> 00:04:48,160
+medical resources. The second one
+
+111
+00:04:48,160 --> 00:04:50,360
+is secondary-hand informant, where they
+
+112
+00:04:50,360 --> 00:04:52,640
+transfer essential messages from others
+
+113
+00:04:52,640 --> 00:04:55,520
+to HFS patients. So they generally
+
+114
+00:04:55,520 --> 00:04:58,200
+couple with intermediary who provide
+
+115
+00:04:58,200 --> 00:04:59,960
+significant information indirectly.
+
+116
+00:05:02,160 --> 00:05:05,000
+And there's the pass-by. They might
+
+117
+00:05:05,000 --> 00:05:07,680
+share experiences, but may not offer
+
+118
+00:05:07,680 --> 00:05:10,640
+particularly useful information, such
+
+119
+00:05:10,640 --> 00:05:13,040
+as fellow patients met in random places.
+
+120
+00:05:14,800 --> 00:05:17,440
+The third unit is the medical unit, which
+
+121
+00:05:17,440 --> 00:05:20,000
+includes various healthcare providers.
+
+122
+00:05:20,560 --> 00:05:22,080
+We've identified three roles.
+
+123
+00:05:24,160 --> 00:05:26,200
+First is the accurate information
+
+124
+00:05:26,200 --> 00:05:28,480
+providers. These are typically
+
+125
+00:05:28,480 --> 00:05:31,040
+specialists who have a deep understanding
+
+126
+00:05:31,040 --> 00:05:33,040
+and medical training of the specific
+
+127
+00:05:33,040 --> 00:05:35,440
+disorder, such as neurosurgeons who can
+
+128
+00:05:35,440 --> 00:05:37,640
+provide accurate information and
+
+129
+00:05:37,640 --> 00:05:39,680
+treatment options for HFS.
+
+130
+00:05:41,920 --> 00:05:44,880
+Second one is the information scan
+
+131
+00:05:44,880 --> 00:05:46,800
+provider, which might be
+
+132
+00:05:46,800 --> 00:05:49,520
+general practitioners
+
+133
+00:05:49,520 --> 00:05:51,920
+and traditional Chinese medicine doctors.
+
+134
+00:05:52,560 --> 00:05:54,880
+They provide only basic guidance or
+
+135
+00:05:54,880 --> 00:05:56,840
+limited treatment suggestions after a
+
+136
+00:05:56,840 --> 00:05:58,080
+general checkup.
+
+137
+00:06:00,520 --> 00:06:02,720
+Third one is the misleading information
+
+138
+00:06:02,720 --> 00:06:05,680
+providers. This group includes
+
+139
+00:06:05,720 --> 00:06:08,240
+unlicensed medical practitioners and
+
+140
+00:06:08,240 --> 00:06:10,560
+so-called barefoot doctors in China who
+
+141
+00:06:10,560 --> 00:06:13,040
+lack the necessary training. They
+
+142
+00:06:13,040 --> 00:06:15,160
+misdiagnose patients and provide
+
+143
+00:06:15,440 --> 00:06:17,520
+effective treatment options.
+
+144
+00:06:20,080 --> 00:06:22,560
+The last unit is the technological unit,
+
+145
+00:06:23,080 --> 00:06:25,360
+which includes actions such as digital
+
+146
+00:06:25,440 --> 00:06:28,000
+devices and software. We've
+
+147
+00:06:28,000 --> 00:06:28,840
+identified 0
+
+148
+00:06:31,520 --> 00:06:34,320
+active information channel. This is where
+
+149
+00:06:34,320 --> 00:06:36,480
+patients proactively seek out health
+
+150
+00:06:36,480 --> 00:06:38,640
+information such as search
+
+151
+00:06:38,640 --> 00:06:41,360
+engines. Patients generally
+
+152
+00:06:41,360 --> 00:06:43,520
+utilize them together and validate their
+
+153
+00:06:43,520 --> 00:06:45,520
+health information received elsewhere
+
+154
+00:06:47,680 --> 00:06:50,240
+and passive information channel. which
+
+155
+00:06:50,240 --> 00:06:53,040
+users encounter by chance or system
+
+156
+00:06:53,200 --> 00:06:56,080
+recommendation, such as watching health
+
+157
+00:06:56,080 --> 00:06:59,040
+program and TV. We
+
+158
+00:06:59,040 --> 00:07:01,800
+also identified 5 strategies that
+
+159
+00:07:01,800 --> 00:07:04,720
+facilitate access to top-tier medical
+
+160
+00:07:04,720 --> 00:07:07,120
+resources. Each of these
+
+161
+00:07:07,120 --> 00:07:09,720
+involves a unique combination of
+
+162
+00:07:09,720 --> 00:07:10,880
+units and roles.
+
+163
+00:07:13,360 --> 00:07:15,920
+Due to the time limit,I'll introduce only
+
+164
+00:07:15,920 --> 00:07:18,320
+intermediary strategy here, and please
+
+165
+00:07:18,320 --> 00:07:20,800
+check out our paper if you're interested
+
+166
+00:07:20,800 --> 00:07:23,040
+in more details. So
+
+167
+00:07:23,040 --> 00:07:25,440
+Piwam is a proactive
+
+168
+00:07:25,440 --> 00:07:28,160
+information-second patient. Her close
+
+169
+00:07:28,160 --> 00:07:30,560
+friends knew her well, and one of them
+
+170
+00:07:30,560 --> 00:07:32,800
+acting as a secondary-hand informant,
+
+171
+00:07:33,520 --> 00:07:35,840
+learning of a similar case successfully
+
+172
+00:07:35,840 --> 00:07:38,720
+treated by a specific neurosurgeon from
+
+173
+00:07:39,040 --> 00:07:41,280
+her friend's husband.
+
+174
+00:07:42,000 --> 00:07:44,400
+So she shared this information with
+
+175
+00:07:44,480 --> 00:07:47,360
+P1, who then received successful
+
+176
+00:07:47,360 --> 00:07:49,360
+treatment from the same neurosurgeon.
+
+177
+00:07:50,320 --> 00:07:52,320
+We can see that this strategy relies
+
+178
+00:07:52,320 --> 00:07:54,720
+heavily on social networks, where
+
+179
+00:07:54,720 --> 00:07:57,040
+information and resources are passed
+
+180
+00:07:57,080 --> 00:07:58,880
+through intermediaries and typically
+
+181
+00:07:58,880 --> 00:08:00,120
+spread by word of mouth.
+
+182
+00:08:03,200 --> 00:08:05,760
+Intermediaries significantly reduce
+
+183
+00:08:05,760 --> 00:08:08,720
+information symmetry. Both
+
+184
+00:08:08,720 --> 00:08:11,680
+humans and technology can act
+
+185
+00:08:11,720 --> 00:08:14,320
+as intermediaries. However,
+
+186
+00:08:14,560 --> 00:08:16,720
+we found that human intermediary is
+
+187
+00:08:16,720 --> 00:08:19,600
+predominant, with connections
+
+188
+00:08:19,600 --> 00:08:21,680
+frequently facilitated through social
+
+189
+00:08:21,680 --> 00:08:24,240
+networking and guanxi in the Chinese
+
+190
+00:08:24,240 --> 00:08:27,080
+context. This might be due to the
+
+191
+00:08:27,200 --> 00:08:29,680
+uncommonness of specialized disorder,
+
+192
+00:08:29,920 --> 00:08:32,320
+where technological approaches are less
+
+193
+00:08:32,320 --> 00:08:33,920
+effective than social networks.
+
+194
+00:08:35,560 --> 00:08:37,400
+The establishment and maintenance
+
+195
+00:08:37,400 --> 00:08:40,120
+frequency, typically based on trust and
+
+196
+00:08:40,120 --> 00:08:42,960
+resource exchanges, are crucial for
+
+197
+00:08:42,960 --> 00:08:45,200
+accessing scarce and valuable
+
+198
+00:08:45,200 --> 00:08:47,600
+information. In particular,
+
+199
+00:08:48,080 --> 00:08:50,800
+strong ties are more beneficial than
+
+200
+00:08:50,800 --> 00:08:53,360
+weak ties in China, which differs from
+
+201
+00:08:53,360 --> 00:08:56,160
+Western societies, therefore.
+
+202
+00:08:56,560 --> 00:08:58,960
+We believe technology has significant
+
+203
+00:08:58,960 --> 00:09:01,560
+potential to empower patients to mitigate
+
+204
+00:09:01,560 --> 00:09:04,160
+asymmetries and reduce reliance on human
+
+205
+00:09:04,160 --> 00:09:06,480
+infrastructuring that has prerequisites.
+
+206
+00:09:07,120 --> 00:09:09,920
+For example, personalized propagation
+
+207
+00:09:09,920 --> 00:09:11,680
+and education based on disorder
+
+208
+00:09:11,680 --> 00:09:14,480
+characteristics, integration
+
+209
+00:09:14,600 --> 00:09:17,280
+of technology into health care policies
+
+210
+00:09:17,280 --> 00:09:20,240
+and infrastructures. Also, using
+
+211
+00:09:20,240 --> 00:09:23,200
+LLM's virtual doctors, providing
+
+212
+00:09:23,200 --> 00:09:25,280
+patients with access to information
+
+213
+00:09:25,280 --> 00:09:28,240
+anytime and anywhere. This
+
+214
+00:09:28,240 --> 00:09:30,680
+is the end of my presentation. Thank you
+
+215
+00:09:30,680 --> 00:09:32,160
+so much for your attention.
