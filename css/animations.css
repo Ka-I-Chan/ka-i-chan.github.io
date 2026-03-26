@@ -55,7 +55,7 @@
   .hero-bio  { order: 3; }
 
   /* Bigger name & pronouns on mobile */
-  .hero-name { font-size: clamp(1.7rem, 5vw, 2.4rem); margin-bottom: 0; }
+  .hero-name { font-size: clamp(1.7rem, 5vw, 2rem); margin-bottom: 0; }
   .hero-pronouns { font-size: 0.42em; }
 
   .blob-wrap { width: 180px; height: 180px; }
