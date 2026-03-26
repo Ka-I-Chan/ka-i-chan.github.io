@@ -46,13 +46,26 @@
   section { padding: 3.5rem 0; }
 
   .hero { min-height: auto; padding-top: 5rem; padding-bottom: 2rem; }
-  .hero-main { grid-template-columns: 1fr; gap: 2rem; }
+  .hero-main { grid-template-columns: 1fr; gap: 1.5rem; }
+
+  /* Reorder: name first, then avatar, then bio */
+  .hero-text { display: contents; }
+  .hero-name { order: 1; }
+  .hero-right { order: 2; }
+  .hero-bio  { order: 3; }
+
+  /* Bigger name & pronouns on mobile */
+  .hero-name { font-size: clamp(1.7rem, 5vw, 2.4rem); margin-bottom: 0; }
+  .hero-pronouns { font-size: 0.42em; }
+
   .blob-wrap { width: 180px; height: 180px; }
   .blob-shape { width: 160px; height: 160px; }
+  .blob-dots { display: none; }
   .news-strip { margin-top: 2rem; }
 
   .pub-item { grid-template-columns: 1fr; }
-  .pub-image { height: 180px; min-height: auto; }
+  .pub-image { height: auto !important; min-height: auto; aspect-ratio: 4 / 3; }
+  .pub-image img { transform: none !important; object-position: center !important; }
   .pub-cr { flex-direction: column; gap: 0.2rem; }
   .pub-header-row { flex-direction: column; gap: 0.75rem; }
 }
