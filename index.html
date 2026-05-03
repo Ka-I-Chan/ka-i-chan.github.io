@@ -31,7 +31,7 @@
   <a href="#" class="nav-logo">Ka I Chan</a>
   <ul class="nav-links">
     <li><a href="#about" class="active">About</a></li>
-    <li><a href="#publications">Publications</a></li>
+    <li><a href="#publications">Research</a></li>
     <li>
       <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
         <svg class="icon-sun" viewBox="0 0 24 24"><path d="M12 3a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0V4a1 1 0 0 1 1-1zm0 15a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0v-1a1 1 0 0 1 1-1zm9-6a1 1 0 0 1-1 1h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 1 1zM5 12a1 1 0 0 1-1 1H3a1 1 0 1 1 0-2h1a1 1 0 0 1 1 1zm12.36-5.64a1 1 0 0 1 0 1.41l-.7.71a1 1 0 1 1-1.42-1.42l.71-.7a1 1 0 0 1 1.41 0zM8.46 15.54a1 1 0 0 1 0 1.41l-.7.71a1 1 0 1 1-1.42-1.42l.71-.7a1 1 0 0 1 1.41 0zm9.18.7a1 1 0 0 1-1.41 0l-.71-.7a1 1 0 1 1 1.42-1.42l.7.71a1 1 0 0 1 0 1.41zM8.46 8.46a1 1 0 0 1-1.41 0l-.71-.7a1 1 0 0 1 1.42-1.42l.7.71a1 1 0 0 1 0 1.41zM12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/></svg>
@@ -64,7 +64,7 @@
           </p>
           <p>
             My research interests lie at the intersection of <strong>Human-Computer Interaction</strong>, <strong>Health Informatics</strong>, and <strong>Human-Centered AI</strong>.
-            I investigate how LLM-powered systems can support people's health and wellbeing — from navigating conflict in intimate relationships to managing the challenges of cancer care — focusing on when and how these systems should intervene in sensitive contexts, and what makes them adaptive, supportive, and acceptable.
+            I study how AI-powered systems can support people's health and wellbeing in sensitive contexts, focusing on when and how these systems should intervene, and what makes them adaptive, supportive, and acceptable.
           </p>
         </div>
       </div>
@@ -134,7 +134,7 @@
 
     <div class="pub-header-row reveal">
       <div>
-        <h2 class="pub-title">Selected Publications</h2>
+        <h2 class="pub-title">Research</h2>
         <span class="pub-equal">* denotes equal contribution</span>
       </div>
       <a href="https://scholar.google.com/citations?user=ZLUo7tkAAAAJ&hl=en&authuser=1" target="_blank" class="pub-scholar-link">
@@ -142,84 +142,58 @@
       </a>
     </div>
 
-    <!-- <div class="pub-header-row reveal">
-      <h2 class="pub-title">Publications</h2>
-      <div class="pub-controls">
-        <div class="pub-tabs">
-          <button class="pub-tab active" onclick="switchPubTab('selected')">Selected</button>
-          <button class="pub-tab" onclick="switchPubTab('all')">All</button>
-        </div>
-        <span class="pub-equal">* equal contribution</span>
-      </div>
-    </div> -->
+    <div class="research-themes reveal">
+      <a href="#theme-communication">AI-Mediated Communication for Intimate Relationships</a>
+      <a href="#theme-healthcare">Healthcare &amp; Aging</a>
+      <a href="#theme-eating">Sensing &amp; Intervention for Eating Behavior</a>
+    </div>
 
-    <!-- Selected Publications (with images) -->
-    <div class="pub-group active" id="pub-selected">
 
-      <!-- <article class="pub-item reveal">
-        <div class="pub-image"> -->
-          <!-- Replace: <img src="images/chi26.png" alt="..."> -->
-          <!-- <span class="pub-image-label">Figure</span>
-        </div>
-        <div class="pub-info">
-          <div class="pub-venue">CHI '26 <span class="pub-award">Best Paper</span></div>
-          <div class="pub-title-text">Rethinking Adaptive Interfaces: A Framework for Context-Aware UI Generation</div>
-          <div class="pub-authors"><strong>A. Chen</strong>, B. Kumar, C. Zhang, D. Williams</div>
-          <div class="pub-desc">A framework that dynamically generates interface layouts by sensing user task context, cognitive load, and device constraints in real time.</div>
-          <div class="pub-links">
-            <a href="#" class="pub-link">PDF</a>
-            <a href="#" class="pub-link">DOI</a>
-            <a href="#" class="pub-link">Video</a>
-            <a href="#" class="pub-link">Code</a>
-          </div>
-        </div>
-      </article> -->
+    <!-- ===== Theme 1: AI-Mediated Communication ===== -->
+    <div id="theme-communication" class="pub-group active">
+      <h3 class="reveal research-theme-title">AI-Mediated Communication for Intimate Relationships</h3>
 
       <article class="pub-item reveal">
-        <div class="pub-image"><img src="assets/publications/ReviewEatInter_IMWUT25/ReviewEatInter.png" style="object-position: 10% center;"></div>
+        <div class="pub-image"><img src="assets/publications/Couples/1_SpeakSoftly.png"></div>
         <div class="pub-info">
-          <div class="pub-venue">IMWUT 2025</div>
-          <div class="pub-title-text">A Review of Behavioral Closed-Loop Paradigm from Sensing to Intervention for Ingestion Health</div>
-          <div class="pub-authors">Jun Fang*, Yanuo Zhou*, <strong>Ka I Chan</strong>, Jiajin Li, Zeyi Sun, Zhengnan Li, Zicong Fu, Hongjing Piao, Haodong Xu, Yuntao Wang, Yuanchun Shi</div>
-          <div class="pub-desc">A systematic review of 136 studies proposing a behavioral closed-loop paradigm that integrates sensing, reasoning, and intervention for adaptive ingestion health systems.</div>
+          <div class="pub-venue">TOCHI (under review)</div>
+          <div class="pub-title-text">SpeakSoftly: Scaffolding Nonviolent Communication in Intimate Relationships through LLM-Powered Just-In-Time Interventions</div>
+          <div class="pub-authors"><strong>Ka I Chan</strong>, Hongbo Lan, Jun Fang, Yuntao Wang, Yuanchun Shi</div>
+          <div class="pub-desc">An LLM-powered just-in-time intervention system that scaffolds nonviolent communication during couple conflicts, focusing on when and how to intervene in sensitive interpersonal contexts.</div>
           <div class="pub-links">
-            <a href="assets/publications/ReviewEatInter_IMWUT25/ReviewEatInter_IMWUT25.pdf" target="_blank" class="pub-link">PDF</a>
-            <a href="https://doi.org/10.1145/3770668" target="_blank" class="pub-link">DOI</a>
+            <a href="assets/publications/Couples/1_SpeakSoftly.pdf" target="_blank" class="pub-link">PDF</a>
           </div>
         </div>
       </article>
 
       <article class="pub-item reveal">
-        <div class="pub-image"><img src="assets/publications/OdysseyJourney_CHI25/OdysseyJourney.png"></div>
+        <div class="pub-image"><img src="assets/publications/Couples/2_Avoidance.png"></div>
         <div class="pub-info">
-          <div class="pub-venue">CHI 2025</div>
-          <div class="pub-title-text">The Odyssey Journey: Top-Tier Medical Resource Seeking for Specialized Disorder in China</div>
-          <div class="pub-authors"><strong>Ka I Chan</strong>, Siying Hu, Yuntao Wang, Xuhai Xu, Zhicong Lu, Yuanchun Shi</div>
-          <div class="pub-desc">A qualitative study using Actor-Network Theory to reveal how hemifacial spasm patients in China navigate social networks and technology to overcome information asymmetries and access top-tier medical resources.</div>
-          <div class="pub-links">
-            <a href="assets/publications/OdysseyJourney_CHI25/OdysseyJourney_CHI25.pdf" target="_blank" class="pub-link">PDF</a>
-            <a href="https://doi.org/10.1145/3706598.3713315" target="_blank" class="pub-link">DOI</a>
-            <!-- <a href="#" class="pub-link">VIDEO</a> -->
-          </div>
+          <div class="pub-venue pub-venue--ongoing">In Preparation</div>
+          <div class="pub-title-text">Exploring AI Design Opportunities for Conflict Avoidance in Intimate Relationships</div>
+          <div class="pub-authors">Jun Fang*, <strong>Ka I Chan</strong>*, Hongbo Lan, Yuntao Wang, Yuanchun Shi</div>
+          <div class="pub-desc">An empirical study using interviews and co-design to explore how AI can support couples who tend to avoid conflicts, identifying design directions for adaptive communication support.</div>
+        </div>
+      </article>
+    </div>
+
+
+    <!-- ===== Theme 2: Healthcare & Aging ===== -->
+    <div id="theme-healthcare" class="pub-group active">
+      <h3 class="reveal research-theme-title">Healthcare &amp; Aging</h3>
+
+      <article class="pub-item reveal">
+        <div class="pub-image"><img src="assets/publications/OATC/OATC.png"></div>
+        <div class="pub-info">
+          <div class="pub-venue pub-venue--ongoing">Ongoing</div>
+          <div class="pub-title-text">Designing LLM-based Chatbots for Older Adults' Post-Treatment Cancer Transition</div>
+          <div class="pub-authors"><strong>Ka I Chan</strong> et al.</div>
+          <div class="pub-desc">A storyboard-driven interview study investigating how LLM-based chatbots can support older adults treated for cancer during their post-treatment transition, examining design considerations across illness management, identity reconstruction, and daily life reintegration. </div>
         </div>
       </article>
 
       <article class="pub-item reveal">
-        <div class="pub-image"><img src="assets/publications/AutomatedHFS_UIC24/AutomatedHFS.png" style="transform: scale(0.7); transform-origin: center;"></div>
-        <div class="pub-info">
-          <div class="pub-venue">UIC 2024</div>
-          <div class="pub-title-text">Automated Grading Hemifacial Spasm Using Smartphone Cameras</div>
-          <div class="pub-authors"><strong>Ka I Chan</strong>, Bo Hei, Linghao Meng, Ruen Liu, Yuntao Wang, Chang Chen, Qingpei Hao, Yuanchun Shi</div>
-          <div class="pub-desc">A smartphone-based AI system that detects and grades hemifacial spasm severity through facial keypoint analysis, achieving 88% detection accuracy aligned with clinical grading standards.</div>
-          <div class="pub-links">
-            <a href="assets/publications/AutomatedHFS_UIC24/AutomatedHFS_UIC24.pdf" target="_blank" class="pub-link">PDF</a>
-            <a href="https://doi.org/10.1109/SWC62898.2024.00070" target="_blank" class="pub-link">DOI</a>
-          </div>
-        </div>
-      </article>
-
-      <article class="pub-item reveal">
-        <div class="pub-image"><img src="assets/publications/BeyondDigitalPrivacy_IJHCS24/scenario.png"></div>
+        <div class="pub-image"><img src="assets/publications/BeyondDigitalPrivacy_IJHCS24/findings.png"></div>
         <div class="pub-info">
           <div class="pub-venue">International Journal of Human-Computer Studies</div>
           <div class="pub-title-text">Beyond digital privacy: Uncovering deeper attitudes toward privacy in cameras among older adults</div>
@@ -232,6 +206,79 @@
         </div>
       </article>
 
+      <article class="pub-item reveal">
+        <div class="pub-image"><img src="assets/publications/HFS/1_OdysseyJourney.png"></div>
+        <div class="pub-info">
+          <div class="pub-venue">CHI 2025</div>
+          <div class="pub-title-text">The Odyssey Journey: Top-Tier Medical Resource Seeking for Specialized Disorder in China</div>
+          <div class="pub-authors"><strong>Ka I Chan</strong>, Siying Hu, Yuntao Wang, Xuhai Xu, Zhicong Lu, Yuanchun Shi</div>
+          <div class="pub-desc">A qualitative study using Actor-Network Theory to reveal how hemifacial spasm patients in China navigate social networks and technology to overcome information asymmetries and access top-tier medical resources.</div>
+          <div class="pub-links">
+            <a href="assets/publications/HFS/1_OdysseyJourney.pdf" target="_blank" class="pub-link">PDF</a>
+            <a href="https://doi.org/10.1145/3706598.3713315" target="_blank" class="pub-link">DOI</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="pub-item reveal">
+        <div class="pub-image"><img src="assets/publications/HFS/2_AutomatedGrading.png"></div>
+        <div class="pub-info">
+          <div class="pub-venue">UIC 2024</div>
+          <div class="pub-title-text">Automated Grading Hemifacial Spasm Using Smartphone Cameras</div>
+          <div class="pub-authors"><strong>Ka I Chan</strong>*, Bo Hei*, Linghao Meng*, Ruen Liu, Yuntao Wang, Chang Chen, Qingpei Hao, Yuanchun Shi</div>
+          <div class="pub-desc">A smartphone-based AI system that detects and grades hemifacial spasm severity through facial keypoint analysis, achieving 88% detection accuracy aligned with clinical grading standards.</div>
+          <div class="pub-links">
+            <a href="assets/publications/HFS/2_AutomatedGrading.pdf" target="_blank" class="pub-link">PDF</a>
+            <a href="https://doi.org/10.1109/SWC62898.2024.00070" target="_blank" class="pub-link">DOI</a>
+          </div>
+        </div>
+      </article>
+    </div>
+
+
+    <!-- ===== Theme 3: Sensing & Intervention for Eating Behavior ===== -->
+    <div id="theme-eating" class="pub-group active">
+      <h3 class="reveal research-theme-title">Sensing &amp; Intervention for Eating Behavior</h3>
+
+      <article class="pub-item reveal">
+        <div class="pub-image"><img src="assets/publications/EatingInter/3_Earinter.png"></div>
+        <div class="pub-info">
+          <div class="pub-venue">IMWUT (under review)</div>
+          <div class="pub-title-text">Earinter: A Closed-Loop System for Eating Pace Regulation with Just-in-Time Intervention</div>
+          <div class="pub-authors">Jun Fang, <strong>Ka I Chan</strong>, Xiyuxing Zhang, Yuntao Wang, Mingze Gao, Leyi Peng, Jiajin Li, Zihang Zhan, Zhixin Zhao, Yuanchun Shi</div>
+          <div class="pub-desc">A system that uses commodity earbuds' bone-conduction sensing to detect chewing and swallowing, and deliver theory-grounded just-in-time interventions for healthier eating pace.</div>
+          <div class="pub-links">
+            <a href="assets/publications/EatingInter/3_Earinter.pdf" target="_blank" class="pub-link">PDF</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="pub-item reveal">
+        <div class="pub-image"><img src="assets/publications/EatingInter/1_Review.png"></div>
+        <div class="pub-info">
+          <div class="pub-venue">IMWUT 2025</div>
+          <div class="pub-title-text">A Review of Behavioral Closed-Loop Paradigm from Sensing to Intervention for Ingestion Health</div>
+          <div class="pub-authors">Jun Fang*, Yanuo Zhou*, <strong>Ka I Chan</strong>, Jiajin Li, Zeyi Sun, Zhengnan Li, Zicong Fu, Hongjing Piao, Haodong Xu, Yuntao Wang, Yuanchun Shi</div>
+          <div class="pub-desc">A systematic review of 136 studies proposing a behavioral closed-loop paradigm that integrates sensing, reasoning, and intervention for adaptive ingestion health systems.</div>
+          <div class="pub-links">
+            <a href="assets/publications/EatingInter/1_Review.pdf" target="_blank" class="pub-link">PDF</a>
+            <a href="https://doi.org/10.1145/3770668" target="_blank" class="pub-link">DOI</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="pub-item reveal">
+        <div class="pub-image"><img src="assets/publications/EatingInter/2_Dataset.png"></div>
+        <div class="pub-info">
+          <div class="pub-venue">CHI 2026 Workshop</div>
+          <div class="pub-title-text">Capturing Chewing and Swallowing with Earables: A Multimodal Dataset Across Contexts</div>
+          <div class="pub-authors">Jun Fang*, <strong>Ka I Chan</strong>*, Xiyuxing Zhang*, Yuntao Wang, Zihang Zhan, Zhixin Zhao, Yuanchun Shi</div>
+          <div class="pub-desc">A multimodal dataset capturing chewing and swallowing events using commodity earables across noisy and quiet eating environments.</div>
+          <div class="pub-links">
+            <a href="assets/publications/EatingInter/2_Dataset.pdf" target="_blank" class="pub-link">PDF</a>
+          </div>
+        </div>
+      </article>
     </div>
 
 
@@ -261,7 +308,7 @@
      ============================================================ -->
 <footer>
   <div class="container">
-    <p class="footer-copy">&copy; 2026 Ka I Chan | Last updated 03/2026</p>
+    <p class="footer-copy">&copy; 2026 Ka I Chan | Last updated 05/2026</p>
   </div>
 </footer>
 

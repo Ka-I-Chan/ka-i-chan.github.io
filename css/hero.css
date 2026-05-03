@@ -50,6 +50,7 @@
   color: var(--text-secondary);
   line-height: 1.85;
   margin-bottom: 1rem;
+  text-align: justify;
 }
 .hero-bio p:last-child { margin-bottom: 0; }
 .hero-bio strong { color: var(--text-primary); font-weight: 600; }
